@@ -4,4 +4,5 @@
 * I will record the learning porcesses of drivers in linux kernel moudule here.
 * What are the strategies of memory protection in kernal space?
 * What is system call?
+* user program -> interface / system calls -> inode -> driver
 * ...
