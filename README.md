@@ -6,3 +6,11 @@
 * What is system call?
 * user program -> interface / system calls -> inode -> driver
 * ...
+
+## Platform
+* Linux
+<><br>
+
+## References
+* tmp
+<><br>
