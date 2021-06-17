@@ -26,4 +26,5 @@
 ## References
 * https://www.youtube.com/watch?v=R5qSTZA0PuY
 * https://www.youtube.com/watch?v=oX9ZwMQL2f4
+* https://docs.huihoo.com/doxygen/linux/kernel/3.7/structfile__operations.html
 <br><br>
