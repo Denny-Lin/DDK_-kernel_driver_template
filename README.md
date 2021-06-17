@@ -12,5 +12,6 @@
 <br><br>
 
 ## References
-* tmp
+* https://www.youtube.com/watch?v=R5qSTZA0PuY
+* https://www.youtube.com/watch?v=oX9ZwMQL2f4
 <br><br>
