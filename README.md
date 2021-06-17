@@ -19,7 +19,8 @@
 
 ![image](https://user-images.githubusercontent.com/67073582/122389029-1393bc00-cfa3-11eb-90b1-da17e137e61f.png) <br>
 
-* ... 
+* So what we should do is ...
+* ...
 <br><br>
 
 ## References
