@@ -15,6 +15,8 @@
 ## Let's get started
 * All the behaviors of read and write should be permitted by kernel which is in the kernel space of ram.
 * ...  
+![image](https://user-images.githubusercontent.com/67073582/122388506-85b7d100-cfa2-11eb-8b19-de8b13d427ed.png) <br>
+
 <br><br>
 
 ## References
