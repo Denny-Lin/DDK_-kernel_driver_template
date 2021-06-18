@@ -20,7 +20,9 @@
 ![image](https://user-images.githubusercontent.com/67073582/122389029-1393bc00-cfa3-11eb-90b1-da17e137e61f.png) <br>
 
 * So what we should do is ...
-* Well, I have online English class now, so to be continuned...
+* To know the interface and what function pointer we can use.
+* Yes, we need to know some structures, cuz it is not like the 8051, we just use out struct or even just array.
+* Linux have lots of C structs, the data will be sent to other machines following the structs via wires in phiscial layer. 
 * ...
 <br><br>
 
@@ -28,4 +30,5 @@
 * https://www.youtube.com/watch?v=R5qSTZA0PuY
 * https://www.youtube.com/watch?v=oX9ZwMQL2f4
 * https://docs.huihoo.com/doxygen/linux/kernel/3.7/structfile__operations.html
+* http://0975128810.blogspot.com/2016/01/raspberry-usb-driver.html
 <br><br>
