@@ -22,7 +22,7 @@
 * So what we should do is ...
 * To know the interface and what function pointer we can use.
 * Yes, we need to know some structures, cuz it is not like the 8051, we just use out struct or even just array.
-* Linux have lots of C structs, the data will be sent to other machines following the structs via wires in phiscial layer. 
+* Linux have lots of specific given structs, the data will be sent to other machines following the given structs via wires in phiscial layer. 
 * ...
 <br><br>
 
