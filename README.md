@@ -1,4 +1,4 @@
-# DDK_kernel_driver_concept
+# DDK_kernel_driver_concepts
 * It is a repository for practicing Linux kernel driver in kernel space.
 * I learned linux driver by myself.
 * I will record the learning porcesses of drivers in linux kernel moudule here.
