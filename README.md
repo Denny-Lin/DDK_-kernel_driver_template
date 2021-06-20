@@ -63,4 +63,5 @@
 * http://0975128810.blogspot.com/2016/01/raspberry-usb-driver.html
 * https://www.ibm.com/docs/en/linux-on-systems?topic=hdaa-names-nodes-numbers
 * https://www.programmersought.com/article/46983724452/
+* https://stackoverflow.com/questions/5970595/how-to-create-a-device-node-from-the-init-module-code-of-a-linux-kernel-module
 <br><br>
