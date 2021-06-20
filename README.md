@@ -19,6 +19,8 @@
 
 ![image](https://user-images.githubusercontent.com/67073582/122663434-0a863300-d1cd-11eb-8d8d-4a152fe5ecdb.png) <br>
 
+![image](https://user-images.githubusercontent.com/67073582/122663563-f989f180-d1cd-11eb-836c-95aaf8d612a2.png) <br>
+
 ![image](https://user-images.githubusercontent.com/67073582/122388792-d0394d80-cfa2-11eb-912a-1f32f38a87c4.png) <br>
 
 ![image](https://user-images.githubusercontent.com/67073582/122389029-1393bc00-cfa3-11eb-90b1-da17e137e61f.png) <br>
@@ -36,4 +38,5 @@
 * https://docs.huihoo.com/doxygen/linux/kernel/3.7/structfile__operations.html
 * http://0975128810.blogspot.com/2016/01/raspberry-usb-driver.html
 * https://www.ibm.com/docs/en/linux-on-systems?topic=hdaa-names-nodes-numbers
+* https://www.programmersought.com/article/46983724452/
 <br><br>
