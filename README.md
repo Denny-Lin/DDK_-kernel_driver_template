@@ -42,6 +42,9 @@
 * ...
 <br><br>
 
+## Use alloc_chrdev_region(), rather than register_chrdev()
+* For new drivers, we strongly suggest that you use dynamic allocation to obtain your major device number, rather than choosing a number randomly from the ones that are currently free.
+
 * To have more control over the device numbers and the device creation you could do the following steps <br>
   (instead of register_chrdev()):
 
