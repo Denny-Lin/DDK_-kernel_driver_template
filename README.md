@@ -21,6 +21,8 @@
 
 ![image](https://user-images.githubusercontent.com/67073582/122663700-1672f480-d1cf-11eb-8a2c-4c6ff2bc186b.png) <br>
 
+* User space programs access character and block devices through device nodes also referred to as device special files. When a device node is created, it is associated with a major and minor number.
+
 ![image](https://user-images.githubusercontent.com/67073582/122663434-0a863300-d1cd-11eb-8d8d-4a152fe5ecdb.png) <br>
 
 ![image](https://user-images.githubusercontent.com/67073582/122663574-13c3cf80-d1ce-11eb-833e-e793b3e56dbd.png) <br>
