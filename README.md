@@ -24,6 +24,8 @@
 
 * User space programs access character and block devices through device nodes also referred to as device special files. 
 * When a device node is created, it is associated with a major and minor number.
+* By definition, device nodes correspond to resources that have already been allocated by the operating system Kernel. 
+* The resources are identified by a major number and a minor number, which are stored as part of the structure of a node.
 
 ![image](https://user-images.githubusercontent.com/67073582/122663434-0a863300-d1cd-11eb-8d8d-4a152fe5ecdb.png) <br>
 
