@@ -13,6 +13,7 @@
 
 
 ## Let's get started
+* Applications on Linux access character and block devices through device nodes, and network devices through network interfaces.
 * All the behaviors of read and write should be permitted by kernel which is in the kernel space of ram. <br>
 
 ![image](https://user-images.githubusercontent.com/67073582/122648803-5e593380-d15d-11eb-9aaf-fc7de2f3f8cb.png) <br>
