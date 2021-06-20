@@ -15,7 +15,9 @@
 ## Let's get started
 * All the behaviors of read and write should be permitted by kernel which is in the kernel space of ram. <br>
 
-![image](https://user-images.githubusercontent.com/67073582/122648803-5e593380-d15d-11eb-9aaf-fc7de2f3f8cb.png)
+![image](https://user-images.githubusercontent.com/67073582/122648803-5e593380-d15d-11eb-9aaf-fc7de2f3f8cb.png) <br>
+
+![image](https://user-images.githubusercontent.com/67073582/122663434-0a863300-d1cd-11eb-8d8d-4a152fe5ecdb.png) <br>
 
 ![image](https://user-images.githubusercontent.com/67073582/122388792-d0394d80-cfa2-11eb-912a-1f32f38a87c4.png) <br>
 
@@ -33,4 +35,5 @@
 * https://www.youtube.com/watch?v=oX9ZwMQL2f4
 * https://docs.huihoo.com/doxygen/linux/kernel/3.7/structfile__operations.html
 * http://0975128810.blogspot.com/2016/01/raspberry-usb-driver.html
+* https://www.ibm.com/docs/en/linux-on-systems?topic=hdaa-names-nodes-numbers
 <br><br>
