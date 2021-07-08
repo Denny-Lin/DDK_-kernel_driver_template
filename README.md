@@ -20,7 +20,7 @@
 
 * A inode records where the file is.
 
-![image](https://user-images.githubusercontent.com/67073582/122663700-1672f480-d1cf-11eb-8a2c-4c6ff2bc186b.png) <br>
+![image](https://user-images.githubusercontent.com/67073582/124983485-94a61680-e06a-11eb-8a77-4958fc778afe.png) <br>
 
 * User space programs access character and block devices through device nodes also referred to as device special files. 
 * When a device node is created, it is associated with a major and minor number.
