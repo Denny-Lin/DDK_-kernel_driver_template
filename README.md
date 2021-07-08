@@ -108,7 +108,7 @@ ex: mknod /dev/ttyUSB32 c 188 32 <br>
 #include <stdio.h>
 int main(){
    char buf[512];
-   FILE *fp = fopen("/dev/XXXXXX", "w+"); // // Call the function in step 1. and open device file you create in step 3.
+   FILE *fp = fopen("/dev/XXXXXX", "w+"); // Call the function in step 1. and open device file you create in step 3.
    if(fp == NULL) {
       printf("can't open device!\n");
       return -1;
