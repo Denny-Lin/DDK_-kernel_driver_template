@@ -57,7 +57,7 @@
    device_create() also allows you to control the names of the devices. <br>
 
 ## Summary
-### Step 1: Write your driver
+### Step 1: Write your driver.()
 ```C
 #include <linux/init.h>
 #include <linux/module.h>
@@ -98,12 +98,12 @@ module_exit(my_exit);
 2. lsmod 
 3. rmmod 
 
-### Step 3: Device file (yuor program should connect this file to find the driver.)
-* We can create it automatically in driver or ourself. <br>
+### Step 3: Device file (your program should connect this file to find the driver.)
+* We can create it automatically in driver (Hotplug) or ourself. <br>
 * int mknod(const char \*pathname, mode_t mode, dev_t dev); <br>
 ex: mknod /dev/ttyUSB32 c 188 32 <br>
 
-### Step 4: Wwrite your program 
+### Step 4: Write your program. 
 ```C
 #include <stdio.h>
 int main(){
