@@ -48,14 +48,77 @@
 * To have more control over the device numbers and the device creation you could do the following steps <br>
   (instead of register_chrdev()):
 
-> 1. Call alloc_chrdev_region() to get a major number and a range of minor numbers to work with.
-> 2. Create device class for your devices with class_create().
-> 3. For each device, call cdev_init() and cdev_add() to add the character device to the system.
-> 4. For each device, call device_create(). <br>
+ 1. Call alloc_chrdev_region() to get a major number and a range of minor numbers to work with.
+ 2. Create device class for your devices with class_create().
+ 3. For each device, call cdev_init() and cdev_add() to add the character device to the system.
+ 4. For each device, call device_create(). <br>
    As a result, among other things, Udev will create device nodes for your devices. <br>
    No need for mknod or the like. 
    device_create() also allows you to control the names of the devices. <br>
 
+## summary
+### Step 1: Write yourdriver
+```C
+#include <linux/init.h>
+#include <linux/module.h>
+
+static struct file_operations simple_driver_fops = 
+{
+    .owner   = THIS_MODULE,
+    .read    = device_file_read,
+    ...
+    .
+};
+
+// dynamic major_num for module_exit
+//read
+//write
+//ioctl
+//...
+
+static int my_init(void)
+{
+    //register for major, name, fops
+    return  0;
+}
+    
+static void my_exit(void)
+{
+    //unregiser
+    //
+    return;
+}
+    
+module_init(my_init);
+module_exit(my_exit); 
+```
+### Step 2: 
+* Compile and mount it. 
+1. insmod 
+2. lsmod 
+3. rmmod 
+
+### Step 3: device file (yuor program should connecte this file to find the driver.)
+* We can create it automatically in driver or ourself. <br>
+* int mknod(const char /*pathname, mode_t mode, dev_t dev);
+ex: mknod /dev/ttyUSB32 c 188 32 <br>
+
+### Step 4: write your program 
+```C
+#include <stdio.h>
+int main(){
+   char buf[512];
+   FILE *fp = fopen("/dev/XXXXXX", "w+"); // // Call the function in step 1. and open device file you create in step 3.
+   if(fp == NULL) {
+      printf("can't open device!\n");
+      return -1;
+   }
+   fread(buf, sizeof(buf), 1, fp); // Call the function in step 1.
+   fwrite(buf, sizeof(buf), 1, fp); // Call the function in step 1.
+   fclose(fp);
+   return 0;
+}
+```
 
 ## References
 * https://www.youtube.com/watch?v=R5qSTZA0PuY
@@ -65,4 +128,5 @@
 * https://www.ibm.com/docs/en/linux-on-systems?topic=hdaa-names-nodes-numbers
 * https://www.programmersought.com/article/46983724452/
 * https://stackoverflow.com/questions/5970595/how-to-create-a-device-node-from-the-init-module-code-of-a-linux-kernel-module
+* https://www.apriorit.com/
 <br><br>
