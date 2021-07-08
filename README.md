@@ -57,7 +57,7 @@
    device_create() also allows you to control the names of the devices. <br>
 
 ## Summary
-### Step 1: Write your driver.(Char)
+### Step 1: Write your driver.(Char, Block, ...)
 ```C
 #include <linux/init.h>
 #include <linux/module.h>
