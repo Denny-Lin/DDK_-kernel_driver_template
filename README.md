@@ -99,7 +99,7 @@ module_exit(my_exit);
 3. rmmod 
 
 ### Step 3: Device file (your program should connect this file to find the driver.)
-* We can create it automatically in driver (Hotplug) or ourself. <br>
+* We can create it automatically in driver (Hotplug) or by ourself. <br>
 * int mknod(const char \*pathname, mode_t mode, dev_t dev); <br>
 ex: mknod /dev/ttyUSB32 c 188 32 <br>
 
