@@ -56,7 +56,7 @@
    No need for mknod or the like. 
    device_create() also allows you to control the names of the devices. <br>
 
-## summary
+## Summary
 ### Step 1: Write yourdriver
 ```C
 #include <linux/init.h>
