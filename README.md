@@ -74,6 +74,7 @@ static struct file_operations simple_driver_fops =
 //read, copy_to_user
 //write, copy_from_user
 //ioctl
+//mining bitcoin??
 //...
 
 static int my_init(void)
