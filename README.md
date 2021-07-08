@@ -71,20 +71,20 @@ static struct file_operations simple_driver_fops =
 };
 
 // dynamic major_num for module_exit
-//read
-//write
+//read, copy_to_user
+//write, copy_from_user
 //ioctl
 //...
 
 static int my_init(void)
 {
-    //register for major, name, fops
+    //register for major_num, name, fops
     return  0;
 }
     
 static void my_exit(void)
 {
-    //unregiser
+    //unregiser for major_num
     //
     return;
 }
@@ -92,13 +92,13 @@ static void my_exit(void)
 module_init(my_init);
 module_exit(my_exit); 
 ```
-### Step 2: 
-* Compile and mount it. 
+### Step 2: Compile and mount it.
+* write your Makefile.
 1. insmod 
 2. lsmod 
 3. rmmod 
 
-### Step 3: device file (yuor program should connecte this file to find the driver.)
+### Step 3: device file (yuor program should connect this file to find the driver.)
 * We can create it automatically in driver or ourself. <br>
 * int mknod(const char \*pathname, mode_t mode, dev_t dev); <br>
 ex: mknod /dev/ttyUSB32 c 188 32 <br>
