@@ -70,7 +70,7 @@ static struct file_operations simple_driver_fops =
     .
 };
 
-// dynamic major_num for module_exit
+//dynamic major_num for module_exit
 //read, copy_to_user
 //write, copy_from_user
 //ioctl
